@@ -1,0 +1,145 @@
+
+.secao-topo
+{
+    width: 100%;
+}
+.secao-topo
+.limitar-secao
+{
+    
+    max-width: 1024px;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.limitar-secao
+ button
+ .img-botao
+{
+    width: 40px;
+    height: 20px;
+    padding: 0;
+    border-radius:  10px;
+    
+    object-fit: contain;
+    border-radius: 20px;
+
+}
+button
+{
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border-color:#CDA345;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+button
+.span-botao
+{
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+    
+
+.limitar-secao
+img
+{
+    width: 200px;
+    
+}
+
+
+.secao-baner
+{
+    width: 100%;
+   height:70vh;
+}
+.secao-baner
+.container-baner
+{
+    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
+    width: 100%;
+    height:100%;
+    background: url(/public/assets/banner-barbearia.jpg);
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.secao-conteudo
+{
+    width: 100%;
+    height: 50vh;
+}
+.secao-conteudo
+.container-conteudo
+{
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+.container-conteudo
+span
+{
+  font-size: 1.2em;
+  font-weight: 600;
+  font-style: italic;
+}
+.container-conteudo
+.paragrafo-estilizado
+{
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Meie Script', cursive;
+color: #CDA345;
+font-size: 2.5em;
+}
+
+
+.modo-claro
+{
+    background-color: #fff;
+    color: #000;
+}
+.modo-escuro 
+{
+    background-color: #252323;
+    color: white;
+}
+.modo-claro
+button
+{
+    background: url(/public/assets/moon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.modo-escuro
+button 
+{
+    background: url(/public/assets/sun.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: cover;
+}
+
+
+    
