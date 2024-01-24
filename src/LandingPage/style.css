@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     padding: 10px;
 }
 .limitar-secao
@@ -78,7 +79,7 @@ img
 .secao-conteudo
 {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
 .secao-conteudo
 .container-conteudo
